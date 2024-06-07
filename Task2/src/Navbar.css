@@ -1,0 +1,28 @@
+.nav-container{
+    color: white;
+    background-image: url("giant-water-lilies-7686641.jpg");
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    letter-spacing: 0.2rem;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  
+  }
+  .home-link{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none !important;
+    display: flex;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+  }
