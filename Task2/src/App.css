@@ -1,0 +1,40 @@
+
+.container{
+  padding: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; 
+  align-items: center;
+  
+}
+.action-container{
+  margin: 30px;
+}
+.employee-list-container{
+  margin: 30px;
+}
+body{
+  background: linear-gradient(90deg, #f5f5dc 0%,#bebe59 50%, #808080 100%);
+
+}
+
+.row{
+  display: flex;
+}
+
+
+@media screen and (max-width: 600px) {
+  .row{
+    flex-direction: column;
+  }
+  .action-container{
+    margin: 14px;
+
+  }
+  .employee-list-container{
+    margin: 20px;
+    margin-left: 0px;
+  }
+}
